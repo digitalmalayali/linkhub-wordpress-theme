@@ -4,8 +4,8 @@ Contributors: Digital Malayali
 Requires at least: 6.4
 Tested up to: 6.5.3
 Requires PHP: 7.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 == Description ==
 
@@ -22,8 +22,8 @@ The code repository is available on GitHub: https://github.com/digitalmalayali/l
 = Is the theme available for other platforms? =
 As of May 2024, Linkhub is available as a plain HTML, CSS template (https://github.com/digitalmalayali/linkhub) and as a theme for Jekyll (https://github.com/digitalmalayali/linkhub-jekyll-theme)
 
-= How do I remove the verified badge near the site title? =
-It can be removed by simply deleting the HTML block. 
+= How do I change the color of the verified badge? =
+To change the color of the verified badge, edit the SVG fill attribute within the Custom HTML block near the Site Title block. You can use color names (e.g., "red", "green"), hexadecimal values (e.g., "#FF0000"), or RGB values (e.g., rgb(255, 0, 0)) for the new color.
 
 = What are the uses and differences between patterns "Three Column Gallery Grid Square" and "Three Column Gallery Grid Tall"? =
 Both can be used to add external links to social media posts.
@@ -31,6 +31,9 @@ Both can be used to add external links to social media posts.
 Three-Column Gallery Grid Square: Use this for square-sized social media posts with a 1:1 aspect ratio (e.g., Instagram). Upload images to the media library, add them to the grid, and link them to websites.
 
 Three-Column Gallery Grid Tall: Use this for social media posts with a taller 9:16 aspect ratio (e.g., Instagram Reels, YouTube Shorts, TikTok).
+
+= How do I add tags inside buttons? =
+From the Block Toolbar, click the drop-down menu near the italics option and choose "Highlight." Select the color "Success" and type the text.
 
 == Changelog ==
 
@@ -43,6 +46,7 @@ Three-Column Gallery Grid Tall: Use this for social media posts with a taller 9:
 * Styles are based on Chota CSS © 2017 Jenil Gogari, MIT, https://jenil.github.io/chota
 
 = Images =
+* Verified badge SVG icon, Remix Icon, Apache 2.0, https://remixicon.com/icon/verified-badge-fill
 * 4786637cbe0108701.90794697-500x500.jpg, Rámon van Raaij, CC0, https://wordpress.org/photos/photo/4786637cbe/ - Used as site icon in the screenshot and demo
 * 1766630b147129b62.99842234-2048x1152.jpg, okaydontworryllc, CC0, https://wordpress.org/photos/photo/1766630b14/
 * 37466386c07734bd0.82899482-2048x1365.jpg, creativemz, CC0, https://wordpress.org/photos/photo/37466386c0/
@@ -57,9 +61,8 @@ Linkhub WordPress Theme, (C) 2024 Digital Malayali
 Linkhub is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
+it under the terms of the GNU General Public License v3.0 as published by
+the Free Software Foundation.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
