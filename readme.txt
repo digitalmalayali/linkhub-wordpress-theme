@@ -16,9 +16,6 @@ A minimal and super-lightweight free WordPress block theme to create a link-in-b
 = Where can I find the live demo of this theme?  =
 Check out the live demo here: https://linkhub.digitalmalayali.in/
 
-= Where can I find the code repository of this theme?  =
-The code repository is available on GitHub: https://github.com/digitalmalayali/linkhub-wordpress-theme
-
 = Is the theme available for other platforms? =
 As of May 2024, Linkhub is available as a plain HTML, CSS template (https://github.com/digitalmalayali/linkhub) and as a theme for Jekyll (https://github.com/digitalmalayali/linkhub-jekyll-theme)
 
@@ -39,6 +36,10 @@ From the Block Toolbar, click the drop-down menu near the italics option and cho
 
 = 0.1.0 =
 * Initial release
+
+= 0.1.1 =
+* Added more tags to style.css
+* Added categories to the footer pattern
 
 == Resources & License ==
 

@@ -57,11 +57,12 @@ function linkhub_register_block_styles()
 
 // Register pattern category
 
-add_action( 'init', 'linkhub_register_pattern_categories' );
+add_action('init', 'linkhub_register_pattern_categories');
 
-function linkhub_register_pattern_categories() {
-	register_block_pattern_category( 'linkhub/patterns', array( 
-		'label'       => __( 'Linkhub Patterns', 'linkhub' ),
-		'description' => __( 'Custom patterns for Linkhub theme.', 'linkhub' )
-	) );
+function linkhub_register_pattern_categories()
+{
+	register_block_pattern_category('linkhub/patterns', array(
+		'label'       => __('Linkhub Patterns', 'linkhub'),
+		'description' => __('Custom patterns for Linkhub theme.', 'linkhub')
+	));
 }

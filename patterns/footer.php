@@ -1,10 +1,9 @@
 <?php
 
 /**
- * Title: footer
+ * Title: Footer
  * Slug: linkhub/footer
- * Categories: hidden
- * Inserter: no
+ * Categories: linkhub/patterns, footers
  */
 ?>
 
