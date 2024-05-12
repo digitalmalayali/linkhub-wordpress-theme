@@ -40,6 +40,7 @@ From the Block Toolbar, click the drop-down menu near the italics option and cho
 = 0.1.1 =
 * Added more tags to style.css
 * Added categories to the footer pattern
+* Removed example.com links
 
 == Resources & License ==
 
