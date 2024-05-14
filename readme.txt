@@ -42,6 +42,9 @@ From the Block Toolbar, click the drop-down menu near the italics option and cho
 * Added categories to the footer pattern
 * Removed example.com links
 
+= 0.1.2 =
+* Removed WordPress photo links in patterns
+
 == Resources & License ==
 
 = Code =
